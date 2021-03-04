@@ -1,13 +1,19 @@
-function numberDoubler(num) {
-    // Your code here
+numberDoubler = (num) => {
+    let outputNum = num;
+
+    while (outputNum < 100) {
+        outputNum = outputNum * 2
+    }
+    return outputNum; 
 }
 
 function stringRepeater(str) {
-    // Your code here
+    
 }
 
+
 function makeDivisible(x, y) {
-    // Your code here
+
 }
 
 module.exports = {

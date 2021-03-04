@@ -37,7 +37,7 @@ stringRepeater('hotdog') => 'hotdoghotdog'
 
 ### `makeDivisible`
 
-Write a function, `makeDivisible`, that takes in two numbers, x and y. The function should add one to x until it is divisble by y. Then return x.
+Write a function, `makeDivisible`, that takes in two numbers, x and y. The function should add one to x until it is divisible by y. Then return x.
 
 **Examples**:
 ```
