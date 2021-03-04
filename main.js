@@ -8,11 +8,12 @@ numberDoubler = (num) => {
 }
 
 function stringRepeater(str) {
-    let num = 0;
-    while (str < 10) {
-        return num * 2;
+    let outputNum = str;
+
+    while (outputNum < 10) {
+        return outputNum * 2
     }
-    return num;
+    return outputNum;
 }
 
 
