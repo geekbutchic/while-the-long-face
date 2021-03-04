@@ -8,12 +8,8 @@ numberDoubler = (num) => {
 }
 
 function stringRepeater(str) {
-    let outputNum = str;
-
-    while (outputNum < 10) {
-        return outputNum * 2
-    }
-    return outputNum;
+    // Could not figure out how to use while loop so attempted another method
+    return 10 > 0 ? Array(4).fill(str).join("") : "";
 }
 
 
