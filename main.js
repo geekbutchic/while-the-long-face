@@ -2,27 +2,27 @@ numberDoubler = (num) => {
     let outputNum = num;
 
     while (outputNum < 100) {
-        outputNum = outputNum * 2
+        outputNum = outputNum * 2;
     }
     return outputNum; 
 }
 
-function stringRepeater(str) {
-    let value = '';
+stringRepeater = (str) => {
+    let outputStr = str;
 
-    while (str.length >= 10) {
-        value += str;
+    while (outputStr.length < 10) {
+        outputStr += str;
     }
-    return value;
+    return outputStr
 }
-
-// stringRepeater = (str) => {
-
-// }
 
 
 makeDivisible = (x, y) => {
-
+    let outputX = x;
+    while (outputX % y !== 0) {
+        outputX++;
+    }
+    return outputX;
 }
 
 module.exports = {
