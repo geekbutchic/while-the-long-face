@@ -8,12 +8,20 @@ numberDoubler = (num) => {
 }
 
 function stringRepeater(str) {
-    // Could not figure out how to use while loop so attempted another method
-    return 10 > 0 ? Array(4).fill(str).join("") : "";
+    let value = '';
+
+    while (str.length >= 10) {
+        value += str;
+    }
+    return value;
 }
 
+// stringRepeater = (str) => {
 
-function makeDivisible(x, y) {
+// }
+
+
+makeDivisible = (x, y) => {
 
 }
 
